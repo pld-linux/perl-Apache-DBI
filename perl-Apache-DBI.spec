@@ -6,7 +6,8 @@ Summary(pl):	Apache::DBI - inicjowanie trwa³ego po³±czenia z baz±
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.94
 Release:	1
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	70a90a6d96b3563a204996e0f8122e61
