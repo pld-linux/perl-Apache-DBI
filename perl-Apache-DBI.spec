@@ -32,7 +32,7 @@ ogólny interfejs dostêpu do baz danych Perla (DBI).
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
