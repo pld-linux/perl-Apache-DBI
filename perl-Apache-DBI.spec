@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Apache
 %define	pnam	DBI
-Summary:	Apache::DBI - Initiate a persistent database connection
-Summary(pl):	Modu³ Apache::DBI - inicjuj±cy ci±g³e po³±czenie z baz±
+Summary:	Apache::DBI - initiate a persistent database connection
+Summary(pl):	Apache::DBI - inicjowanie trwa³ego po³±czenia z baz±
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.94
 Release:	1
