@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	Apache-DBI perl module
-Summary(pl):	Modu³ perla Apache-DBI
+Summary:	Apache::DBI perl module
+Summary(pl):	Modu³ perla Apache::DBI
 Name:		perl-Apache-DBI
 Version:	0.88
 Release:	3
@@ -13,10 +13,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Apache-DBI perl module.
+Apache::DBI perl module.
 
 %description -l pl
-Modu³ perla Apache-DBI.
+Modu³ perla Apache::DBI.
 
 %prep
 %setup -q -n ApacheDBI-%{version}
