@@ -1,3 +1,8 @@
+#
+# Conditional build:
+%bcond_with	tests	# perform "make test"
+			# fail while DBD::mysql is present
+#
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Apache
 %define	pnam	DBI
@@ -38,10 +43,13 @@ ogólny interfejs dostêpu do baz danych Perla (DBI).
 	INSTALLDIRS=vendor
 %{__make}
 
+%{?with_tests:%{__make} test}
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
