@@ -4,7 +4,7 @@
 Summary:	Apache::DBI - Initiate a persistent database connection
 Summary(pl):	Modu³ Apache::DBI - inicjuj±cy ci±g³e po³±czenie z baz±
 Name:		perl-%{pdir}-%{pnam}
-Version:	0.92
+Version:	0.93
 Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
