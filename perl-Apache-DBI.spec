@@ -34,7 +34,7 @@ ogólny interfejs dostêpu do baz danych Perla (DBI).
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
