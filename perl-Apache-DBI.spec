@@ -5,12 +5,12 @@ Summary:	Apache::DBI - Initiate a persistent database connection
 Summary(pl):	Modu³ Apache::DBI - inicjuj±cy ci±g³e po³±czenie z baz±
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.91
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -32,7 +32,8 @@ ogólny interfejs dostêpu do baz danych Perla (DBI).
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -46,5 +47,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README Changes
-%{perl_sitelib}/%{pdir}/*.pm
+%{perl_vendorlib}/%{pdir}/*.pm
 %{_mandir}/man3/*
