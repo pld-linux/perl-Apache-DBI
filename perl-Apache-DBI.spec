@@ -3,7 +3,7 @@ Summary:	Apache-DBI perl module
 Summary(pl):	Modu³ perla Apache-DBI
 Name:		perl-Apache-DBI
 Version:	0.88
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Apache/ApacheDBI-%{version}.tar.gz
