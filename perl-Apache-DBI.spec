@@ -4,8 +4,8 @@
 			# fail while DBD::mysql is present
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Apache
-%define	pnam	DBI
+%define		pdir	Apache
+%define		pnam	DBI
 Summary:	Apache::DBI - initiate a persistent database connection
 Summary(pl):	Apache::DBI - inicjowanie trwa³ego po³±czenia z baz±
 Name:		perl-Apache-DBI
