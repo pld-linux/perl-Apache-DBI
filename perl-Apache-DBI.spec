@@ -1,9 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	Apache::DBI perl module
-Summary(pl):	Modu³ perla Apache::DBI
+Summary:	Apache::DBI - Initiate a persistent database connection
 Name:		perl-Apache-DBI
 Version:	0.88
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/Apache/ApacheDBI-%{version}.tar.gz
@@ -13,10 +12,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Apache::DBI perl module.
-
-%description -l pl
-Modu³ perla Apache::DBI.
+This module initiates a persistent database connection.
 
 %prep
 %setup -q -n ApacheDBI-%{version}
