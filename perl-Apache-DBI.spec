@@ -21,6 +21,13 @@ mod_perl. They provide support for basic authentication and
 authorization as well as support for persistent database connections
 via Perl's Database Independent Interface (DBI).
 
+%description -l pl
+Modu³y Apache::DBI i Apache::AuthDBI s± przeznaczone do u¿ywania
+³±cznie z serwerem Apache z wbudowanym interpreterem Perla takim jak
+mod_perl. Zapewniaj± obs³ugê podstawowego uwierzytelnienia i
+autoryzacji, a tak¿e obs³ugê ci±g³ych po³±czeñ z baz± danych poprzez
+ogólny interfejs dostêpu do baz danych Perla (DBI).
+
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
