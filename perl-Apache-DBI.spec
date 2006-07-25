@@ -15,7 +15,7 @@ Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	70a90a6d96b3563a204996e0f8122e61
+# Source0-md5:	8aff20a5916f78fb4d71e2aab599e77d
 URL:		http://search.cpan.org/dist/Apache-DBI/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
