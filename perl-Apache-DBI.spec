@@ -7,7 +7,7 @@
 %define		pdir	Apache
 %define		pnam	DBI
 Summary:	Apache::DBI - initiate a persistent database connection
-Summary(pl):	Apache::DBI - inicjowanie trwa³ego po³±czenia z baz±
+Summary(pl.UTF-8):   Apache::DBI - inicjowanie trwaÅ‚ego poÅ‚Ä…czenia z bazÄ…
 Name:		perl-Apache-DBI
 Version:	1.01
 Release:	1
@@ -29,12 +29,12 @@ mod_perl. They provide support for basic authentication and
 authorization as well as support for persistent database connections
 via Perl's Database Independent Interface (DBI).
 
-%description -l pl
-Modu³y Apache::DBI i Apache::AuthDBI s± przeznaczone do u¿ywania
-³±cznie z serwerem Apache z wbudowanym interpreterem Perla takim jak
-mod_perl. Zapewniaj± obs³ugê podstawowego uwierzytelnienia i
-autoryzacji, a tak¿e obs³ugê ci±g³ych po³±czeñ z baz± danych poprzez
-ogólny interfejs dostêpu do baz danych Perla (DBI).
+%description -l pl.UTF-8
+ModuÅ‚y Apache::DBI i Apache::AuthDBI sÄ… przeznaczone do uÅ¼ywania
+Å‚Ä…cznie z serwerem Apache z wbudowanym interpreterem Perla takim jak
+mod_perl. ZapewniajÄ… obsÅ‚ugÄ™ podstawowego uwierzytelnienia i
+autoryzacji, a takÅ¼e obsÅ‚ugÄ™ ciÄ…gÅ‚ych poÅ‚Ä…czeÅ„ z bazÄ… danych poprzez
+ogÃ³lny interfejs dostÄ™pu do baz danych Perla (DBI).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
