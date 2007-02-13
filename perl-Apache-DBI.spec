@@ -7,7 +7,7 @@
 %define		pdir	Apache
 %define		pnam	DBI
 Summary:	Apache::DBI - initiate a persistent database connection
-Summary(pl.UTF-8):   Apache::DBI - inicjowanie trwałego połączenia z bazą
+Summary(pl.UTF-8):	Apache::DBI - inicjowanie trwałego połączenia z bazą
 Name:		perl-Apache-DBI
 Version:	1.01
 Release:	1
