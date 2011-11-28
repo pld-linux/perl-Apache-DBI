@@ -9,13 +9,13 @@
 Summary:	Apache::DBI - initiate a persistent database connection
 Summary(pl.UTF-8):	Apache::DBI - inicjowanie trwałego połączenia z bazą
 Name:		perl-Apache-DBI
-Version:	1.10
+Version:	1.11
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	f4c6c8b718192a9f1ab2bbe31e221c38
+# Source0-md5:	b973fdf5292bbe6caa38a664d0a83f0b
 URL:		http://search.cpan.org/dist/Apache-DBI/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
