@@ -3,7 +3,6 @@
 %bcond_with	tests	# perform "make test"
 			# fail while DBD::mysql is present
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Apache
 %define		pnam	DBI
 Summary:	Apache::DBI - initiate a persistent database connection
